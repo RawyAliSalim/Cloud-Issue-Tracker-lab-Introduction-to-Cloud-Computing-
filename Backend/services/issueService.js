@@ -6,7 +6,8 @@ const DATA_FILE = path.join(__dirname, "../data/issues.json");
 async function readIssues() {
   try {
     const data = await fs.readFile(DATA_FILE, "utf-8");
-    return JSON.parse(text);
+    console.log(data);
+    return JSON.parse(data);
   } catch (error) {
     if (error.code === "ENOENT") {
       return [];
@@ -36,7 +37,7 @@ async function createIssue(input) {
   return issue;
 }
 
-async function updateIssue(id, status) {
+async function  updateIssueStatus(id, status) {
   const issues = await readIssues();
   const issue = issues.find((issue) => issue.id === id);
   if (!issue) return null;
@@ -49,5 +50,5 @@ async function updateIssue(id, status) {
 module.exports = {
   readIssues,
   createIssue,
-  updateIssue,
+  updateIssueStatus,
 };

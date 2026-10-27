@@ -6,5 +6,61 @@
     "priority": "High",
     "status": "Open",
     "createdAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "3114c09c-f123-4d05-a157-6e4dc0fe6e7c",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-10-20T07:03:14.585Z"
+  },
+  {
+    "id": "357351f0-915e-484b-8da4-517fb83c3cb9",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-10-20T07:11:32.754Z"
+  },
+  {
+    "id": "fee97822-1799-4f1d-9a9e-b3d8b8b31728",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-10-20T07:12:00.733Z"
+  },
+  {
+    "id": "d1e2256c-a4de-43b2-90d2-895bba5e414e",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-10-20T07:16:31.441Z"
+  },
+  {
+    "id": "491a79d5-ca61-4def-8315-02f16dbbd1ee",
+    "title": "Projector flickering",
+    "description": "The projector in room B204 flickers.",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-10-20T07:20:29.449Z"
+  },
+  {
+    "id": "e44c68c4-6d1a-4f98-8f1d-c9ad52c344b3",
+    "title": "Printer unavailable",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-10-20T07:22:05.649Z"
+  },
+  {
+    "id": "efdc4c85-edb1-417b-941e-a28ffc061307",
+    "title": "Pxgxdhgxb",
+    "description": "The shared printer is not responding.",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-10-20T07:25:43.370Z"
   }
 ]
